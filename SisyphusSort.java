@@ -14,7 +14,7 @@ public class SisyphusSort {
     }
     public SisyphusSort(int[] array) throws InterruptedException {
 
-        if(isSorted(array)) {
+        if (isSorted(array)) {
             System.out.println("There is nothing I can do.");
             return;
         }
